@@ -27,5 +27,41 @@ document.addEventListener('DOMContentLoaded', function() {
           console.error('Network error:', error);
         });
     });
+
+
+    $(document).ready(function() {
+      // Smooth scrolling when clicking on Navbar links
+      $("a.nav-link").on("click", function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          const hash = this.hash;
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top
+            },
+            800 // Adjust the animation speed (in milliseconds) as needed
+          );
+        }
+      });
+
+      // Highlight active nav-link based on scroll position
+      $(window).on("scroll", function() {
+        const scrollPosition = $(window).scrollTop();
+
+        $("div").each(function() {
+          const target = $(this);
+          const id = target.attr("id");
+          const navLink = $('a[href="#' + id + '"]');
+          const offset = target.offset().top;
+          const height = target.outerHeight();
+
+          if (scrollPosition >= offset && scrollPosition < offset + height) {
+            navLink.addClass("active");
+          } else {
+            navLink.removeClass("active");
+          }
+        });
+      });
+    });
   });
   
