@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Bootstrap Page</title>
+  <title>WebConsulPro</title>
   
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
@@ -21,14 +21,15 @@
   <link rel="stylesheet" href="css/stylesheets.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
 </head>
 <body>
 
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary p-4 fixed-top">
         <div class="container-fluid">
-          <img src="images/back.jpg" alt="" class="img-fluid" style="width: 60px;">
-          <a class="navbar-brand" href="#">WebConsulpro</a>
+          <img src="images/w.png" alt="" class="img-fluid" style="width: 60px;">
+          <a class="navbar-brand" href="#">WebConsulPro</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,7 +38,10 @@
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
               <a class="nav-link" href="#about">About Us</a>
               <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link" href="#values">Our Values</a>
               <a class="nav-link" href="#team">Our Team</a>
+              <a class="nav-link" href="#why_us">Why Us</a>
+              <a class="nav-link" href="#faq">FAQ</a>
               <a class="nav-link" href="#contact">Contact</a>
             </div>
           </div>
@@ -46,70 +50,145 @@
     
     
   
-    <div class="container hero" id="home">
-        <div class="background-image"></div>
-        <div class="content">
-          <h1>La puissance du web à portée de main: nous créons votre site web en 3 jours seulement !</h1>
-          <p>LOffrez à votre business un site web qui lui correspond. 
-            Notre équipe vous apporte son expertise pour réaliser des sites sur mesure, prêt en un temps record et à moindre coût.</p>
-          <button type="button" class="btn btn-outline-success btn-lg rounded-0">Découvrez maintenant</button>
+    <div id="home">
+        <div class  ="p-5" style="height: 90vh; width: 100%; background-image: url(images/web5.jpg); background-size: cover; background-position: center;" class="position-relative w-100">
+        <div class="position-absolute text-white d-flex flex-column align-items-start justify-content-center p-5" style="height: 90vh; top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0,0,0,.7);">
+            <div class="container mt-5">
+            <div class="col-md-8">
+                <span style="color: #bbb;" class="text-uppercase">SubHeadline</span>
+                <!-- on small screens remove display-4 -->
+                <h1 class="mb-4 mt-2 display-2 font-weight-bold">Enter Your <span style="color: #148d7f;">Headline Here</span></h1>
+                <p  style="color: #bbb;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem eos ea, cum quae facilis optio impedit tempora aliquam at eveniet?</p>
+                <div class="mt-5">
+                <!-- hover background-color: white; color: black; -->
+                <a href="#" class="btn px-5 py-3 text-white mt-3 mt-sm-0" style="border-radius: 30px; background-color: #148d7f;">Get Started</a>
+                </div>
+            </div>
+            </div>
+        </div>
         </div>
     </div>
     <div class="container m-0 bg-dark" id="about">
         <div class="row">
             <div class="col-12 col-md-6 p-5">
-                <img src="https://images.unsplash.com/photo-1543092587-d8b8feaf362b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="" class="img-fluid">
+                <img src="images/web1.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-6 p-5 text-white">
-                <h1>About Us</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt necessitatibus quod deleniti vero atque magnam itaque at quibusdam sed, eaque voluptatibus, accusantium pariatur commodi illo earum deserunt explicabo molestiae! Nulla!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quibusdam soluta eum expedita. At qui ullam quas quisquam minima rem aliquid error perferendis commodi distinctio! Officia delectus fugiat blanditiis recusandae.</p>
+                <h1>A propos de nous</h1>
+                <p>WebConsulPro est une agence de consulting spécialisée dans la création de sites internet pour les professionnels. Forts de notre expertise et de notre passion pour le web, nous sommes déterminés à aider les entreprises à développer leur présence en ligne de manière efficace et esthétique.</p>
+                <p>Notre équipe dévouée est composée de designers et de développeurs talentueux qui travaillent en étroite collaboration avec vous pour créer des sites web sur mesure, reflétant l'identité et les valeurs de votre entreprise, tout en attirant votre audience cible.</p>
+                <p>Avec WebConsulPro, vous avez l'assurance de bénéficier d'un site web professionnel de haute qualité, créé sur mesure pour répondre à vos objectifs commerciaux. Nous nous engageons à vous offrir le meilleur service et les meilleurs résultats.</p>
             </div>
         </div>
     </div>
 
     <div class="container p-5 team3 bg-success" id="services">
-        <div class="row justify-content-center mb-4">
-            <div class="col-md-12 text-left">
-              <h3 class="mb-3 text-white">Services</h3>
+        <div class="row">
+            <div class="section-head col-12">
+                <h4><span class="text-white">Nos services </span></h4>
+                <p class="text-white">Chez WebConsulPro, nous nous efforçons d'être bien plus qu'une simple agence de création de sites web. Voici ce qui fait de nous le partenaire idéal pour vos besoins en présence en ligne</p>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-4 mb-3">
                 <div class="card border-0 bg-transparent">
-                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwyMHx8Y29uc3VsdGluZyUyMHxlbnwwfHx8fDE2ODg2NjA5MDN8MA&ixlib=rb-4.0.3&q=80&w=1080" class="card-img-top" alt="...">
+                    <img src="images/web2.jpg" class="card-img-top" alt="...">
                     <div class="card-body p-0">
-                        <h5 class="mt-4 font-weight-medium mb-0 text-white">Consultation en Stratégie d'Entreprise</h5>
-                        <p class="text-white mt-4">Propulsez votre entreprise avec une stratégie sur mesure pour la croissance et la rentabilité.</p>
-                        <a href="#" class="btn btn-outline-light mt-2 rounded-0">Plus d'informations</a>
+                        <h5 class="mt-4 font-weight-medium mb-0 text-white">Création de Sites Web Professionnels</h5>
+                        <p class="text-white mt-4">Nous concevons des sites web sur mesure qui captivent votre audience, reflètent votre identité d'entreprise et stimulent votre croissance. Grâce à notre expertise en design et en développement, nous créons des sites esthétiques, fonctionnels et optimisés pour une expérience utilisateur exceptionnelle.</p>
+                        <!-- <a href="#" class="btn btn-outline-light mt-2 rounded-0">Plus d'informations</a> -->
                     </div>
                 </div>
             </div>
               
             <div class="col-12 col-md-4 mb-3">
                 <div class="card border-0 bg-transparent">
-                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwyMHx8Y29uc3VsdGluZyUyMHxlbnwwfHx8fDE2ODg2NjA5MDN8MA&ixlib=rb-4.0.3&q=80&w=1080" class="card-img-top" alt="...">
+                    <img src="images/web4.jpg" class="card-img-top" alt="...">
                     <div class="card-body p-0">
-                        <h5 class="mt-4 font-weight-medium mb-0 text-white">Consultation en Stratégie d'Entreprise</h5>
-                        <p class="text-white mt-4">Propulsez votre entreprise avec une stratégie sur mesure pour la croissance et la rentabilité.</p>
-                        <a href="#" class="btn btn-outline-light mt-2 rounded-0">Plus d'informations</a>
+                        <h5 class="mt-4 font-weight-medium mb-0 text-white">Conception de Cartes de Visite et Flyers</h5>
+                        <p class="text-white mt-4">Nos talents créatifs ne se limitent pas au digital. 
+                            Nous proposons également des services de conception de cartes de visite et de flyers professionnels qui laissent une impression durable sur vos clients et partenaires commerciaux.</p>
+                        <!-- <a href="#" class="btn btn-outline-light mt-2 rounded-0">Plus d'informations</a> -->
                     </div>
                 </div>
             </div>
+
             <div class="col-12 col-md-4 mb-3">
                 <div class="card border-0 bg-transparent">
-                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwyMHx8Y29uc3VsdGluZyUyMHxlbnwwfHx8fDE2ODg2NjA5MDN8MA&ixlib=rb-4.0.3&q=80&w=1080" class="card-img-top" alt="...">
+                    <img src="images/web3.jpg" class="card-img-top" alt="...">
                     <div class="card-body p-0">
-                        <h5 class="mt-4 font-weight-medium mb-0 text-white">Consultation en Stratégie d'Entreprise</h5>
-                        <p class="text-white mt-4">Propulsez votre entreprise avec une stratégie sur mesure pour la croissance et la rentabilité.</p>
-                        <a href="#" class="btn btn-outline-light mt-2 rounded-0">Plus d'informations</a>
+                        <h5 class="mt-4 font-weight-medium mb-0 text-white">Conseils en Stratégie Web et Marketing Digital</h5>
+                        <p class="text-white mt-4">En tant que consultant web, nous sommes là pour vous aider à développer une stratégie en ligne efficace. Des recommandations sur le marketing digital, l'optimisation des moteurs de recherche (SEO) et les campagnes publicitaires, nous sommes là pour vous guider vers le succès en ligne.</p>
+                        <!-- <a href="#" class="btn btn-outline-light mt-2 rounded-0">Plus d'informations</a> -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container bg-success-light p-5 fs-4">
+    <div class="feat bg-gray pt-5 pb-5 values" id="values">
+        <div class="container p-5">
+            <div class="row">
+                <div class="section-head col-12">
+                    <h4><span>Nos</span> valeurs</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                        <h6>Qualité</h6>
+                        <p>Nous nous engageons à offrir des services de la plus haute qualité, en nous assurant que chaque site web que nous créons est esthétique, fonctionnel et répond parfaitement aux besoins de nos clients.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                        <h6>Transparence</h6>
+                        <p>Chez WebConsulPro, nous croyons en une communication ouverte et honnête avec nos clients. Nous sommes transparents sur nos processus, nos tarifs et les délais, pour que nos clients sachent à quoi s'attendre à chaque étape.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                        <h6>Personnalisation</h6>
+                        <p>Chaque entreprise est unique, c'est pourquoi nous nous engageons à créer des sites web sur mesure qui reflètent l'identité et les valeurs spécifiques de nos clients.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                        <h6>Réactivité</h6>
+                        <p>Nous comprenons l'importance du temps dans le monde des affaires. C'est pourquoi nous nous engageons à répondre rapidement aux demandes de nos clients et à respecter les délais convenus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                        <h6>Collaboration</h6>
+                        <p>Nous croyons en une collaboration étroite avec nos clients tout au long du processus de création du site web. Nous écoutons leurs idées et leurs besoins pour créer ensemble un site qui répond à leurs attentes.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                        <h6>Innovation</h6>
+                        <p>Nous restons constamment à l'affût des dernières tendances et technologies web pour offrir à nos clients des solutions à la pointe de l'innovation.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                        <h6>Satisfaction Client</h6>
+                        <p>La satisfaction de nos clients est notre priorité absolue. Nous nous efforçons de dépasser leurs attentes et de fournir un service qui les rendra heureux et satisfaits de leur site web.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                        <h6>Éthique</h6>
+                        <p>Nous agissons toujours de manière éthique et professionnelle, en respectant les normes de l'industrie et en traitant nos clients avec respect et intégrité.</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <!-- <div class="container bg-success-light p-5 fs-4">
         <div class="row">
             <div class="col-12">
                 <p>
@@ -120,71 +199,242 @@
                 <p class="mt-4">-Quote</p>
             </div>
         </div>
-    </div>
+    </div> -->
     
     <div class="container p-5 team3" id="team">
-        <div class="row justify-content-center mb-4">
-            <div class="col-md-7 text-center">
-              <h3 class="mb-3">Experienced & Professional Team</h3>
-              <h6 class="subtitle font-weight-normal">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
-            </div>
+        <div class="section-head col-12">
+            <h4><span>Our</span> Team</h4>
         </div>
         <div class="row">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3">
                 <div class="card border-0">
-                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg" class="card-img-top" alt="...">
+                    <img src="images/team4.jpg" class="card-img-top" alt="...">
                     <div class="card-body p-0">
-                        <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                        <h6 class="subtitle">Property Specialist</h6>
-                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                        <ul class="list-inline">
+                        <h5 class="mt-4 font-weight-medium mb-0">Laura</h5>
+                        <h6 class="subtitle">Designer créative</h6>
+                        <p>Laura est notre talentueuse designer créative. Passionnée par l'esthétique et l'ergonomie, elle transforme les visions de nos clients en designs captivants et modernes. Son sens artistique lui permet de créer des expériences visuelles uniques pour chaque site internet que nous développons.</p>
+                        <!-- <ul class="list-inline">
                             <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-instagram"></i></a></li>
                             <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-behance"></i></a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                   </div>
             </div>
-            <div class="col-12 col-md-4">
+
+            <div class="col-12 col-md-3">
                 <div class="card border-0">
-                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg" class="card-img-top" alt="...">
+                    <img src="images/team2.JPG" class="card-img-top" alt="...">
                     <div class="card-body p-0">
-                        <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                        <h6 class="subtitle">Property Specialist</h6>
-                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                        <ul class="list-inline">
+                        <h5 class="mt-4 font-weight-medium mb-0">Julien</h5>
+                        <h6 class="subtitle">Expert en stratégie numérique</h6>
+                        <p>Julien est un consultant chevronné dans le domaine de la stratégie numérique. Fort de ses nombreuses années d'expérience, il guide nos clients dans la définition de leurs objectifs en ligne et dans l'élaboration d'une stratégie solide pour atteindre leurs cibles</p>
+                        <!-- <ul class="list-inline">
                             <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-instagram"></i></a></li>
                             <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-behance"></i></a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                   </div>
             </div>
-            <div class="col-12 col-md-4">
+
+            <div class="col-12 col-md-3">
                 <div class="card border-0">
-                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg" class="card-img-top" alt="...">
+                    <img src="images/team1.jpg" class="card-img-top" alt="...">
                     <div class="card-body p-0">
-                        <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                        <h6 class="subtitle">Property Specialist</h6>
-                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                        <ul class="list-inline">
+                        <h5 class="mt-4 font-weight-medium mb-0">Ludovic</h5>
+                        <h6 class="subtitle">Développeur web polyvalent</h6>
+                        <p>Ludovic est notre expert en développement web polyvalent. Avec une connaissance approfondie des langages de programmation et des technologies web, il transforme les designs de Laura en sites internet fonctionnels, rapides et sécurisés. Il excelle dans la création de sites adaptés à toutes les plateformes et garantit une expérience utilisateur fluide.</p>
+                        <!-- <ul class="list-inline">
                             <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-instagram"></i></a></li>
                             <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-behance"></i></a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                   </div>
+            </div>
+
+            <div class="col-12 col-md-3">
+                <div class="card border-0">
+                    <img src="images/team3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-0">
+                        <h5 class="mt-4 font-weight-medium mb-0">Thomas</h5>
+                        <h6 class="subtitle">Spécialiste en optimisation SEO</h6>
+                        <p>Thomas est notre spécialiste en optimisation pour les moteurs de recherche. Il maîtrise les techniques avancées d'optimisation qui permettent à nos clients d'améliorer leur visibilité en ligne et de générer du trafic qualifié. Son expertise en SEO assure une présence optimale de nos sites internet sur les moteurs de recherche.</p>
+                        <!-- <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fab fa-behance"></i></a></li>
+                        </ul> -->
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="feat bg-gray pt-5 pb-5" id="why_us">
+        <div class="container p-5">
+            <div class="row">
+                <div class="section-head col-12">
+                    <h4><span>Pourquoi nous </span> choisir?</h4>
+                    <p>Chez WebConsulPro, nous nous efforçons d'être bien plus qu'une simple agence de création de sites web. Voici ce qui fait de nous le partenaire idéal pour vos besoins en présence en ligne</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_one"><i class="fas fa-certificate"></i></span>
+                        <h6>Expérience</h6>
+                        <p>Forts d'une expertise éprouvée dans la création de sites web pour les professionnels, nous savons comment vous aider à réussir en ligne.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_two"><i class="fas fa-users"></i></span>
+                        <h6>Expertise et professionnalisme</h6>
+                        <p>Notre équipe est composée d'experts en création de sites web, dédiés à fournir un service professionnel et à dépasser vos attentes.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_three"><i class="fas fa-clock"></i></span>
+                        <h6>Rapidité d'exécution</h6>
+                        <p>Grâce à notre processus bien rodé, nous sommes en mesure de créer des sites web professionnels en seulement moins d'une semaine, sans compromettre la qualité.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_four"><i class="fas fa-money-bill-alt"></i></span>
+                        <h6>Tarifs abordables</h6>
+                        <p>Notre approche permet de proposer des tarifs compétitifs, rendant la création d'un site web professionnel accessible à tous.</p>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_five"><i class="fas fa-heart"></i></span>
+                        <h6>Satisfaction Client</h6>
+                        <p>La satisfaction de nos clients est notre priorité. Nous mettons tout en œuvre pour dépasser vos attentes et vous offrir une expérience client exceptionnelle.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_five"><i class="fas fa-heart"></i></span>
+                        <h6>Satisfaction Client</h6>
+                        <p>La satisfaction de nos clients est notre priorité. Nous mettons tout en œuvre pour dépasser vos attentes et vous offrir une expérience client exceptionnelle.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+      </div>
+    
+    
+    <div class="container p-5 team3" id="faq">
+        <div class="section-head col-12">
+            <h4><span> Frequently Asked</span> Questions</h4>
+        </div>
+        <div class="row">
+            <div class="col-10 col-md-8 offset-1 offset-md-2">
+                <div class="accordion" id="accordionFlushExample">
+                    <!-- Existing accordion items -->
+                    <div class="accordion-item mb-3 border rounded-0">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Combien de temps faut-il pour créer un site internet avec WebConsulPro ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Chez WebConsulPro, nous nous engageons à créer des sites internet pas cher, rapidement, généralement entre 3 et 6 jours. Notre équipe est spécialement organisée pour fournir des résultats rapides sans compromettre la qualité.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3 border rounded-0">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Quels types de sites internet pouvez-vous créer ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Nous sommes spécialisés dans la création de sites internet pas chers et rapide pour les professionnels de divers secteurs d'activité. Que vous soyez une petite entreprise, un indépendant ou une start-up, nous pouvons concevoir des sites web pas cher adaptés à vos besoins, tels que des sites vitrines, des portfolios et des sites de commerce en ligne.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3 border rounded-0">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Comment fonctionne votre processus de création de sites ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Notre processus est simple et efficace. Après une consultation initiale pour comprendre vos besoins, notre équipe de consultants travaillera en étroite collaboration avec vous pour concevoir le design, développer le site et l'optimiser. Nous vous tiendrons informé à chaque étape du processus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3 border rounded-0">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Pouvez-vous personnaliser le design de mon site internet ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Absolument ! Nous comprenons que chaque entreprise est unique. Notre équipe de designers créatifs travaillera avec vous pour créer un design sur mesure qui reflète votre identité de marque et met en valeur vos produits ou services.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3 border rounded-0">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                Que se passe-t-il une fois que mon site internet est créé ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Une fois que votre site est créé, nous vous fournissons toutes les informations nécessaires pour le gérer et le mettre à jour facilement. Si vous avez besoin d'une assistance supplémentaire ou de services de maintenance, nous proposons également des options de support à long terme.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3 border rounded-0">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                Proposez-vous des services d'optimisation pour les moteurs de recherche (SEO) ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Oui, nous proposons des services d'optimisation SEO pour aider votre site internet à être mieux classé dans les résultats des moteurs de recherche. Notre équipe de spécialistes en SEO mettra en œuvre les meilleures pratiques pour augmenter votre visibilité en ligne et générer du trafic qualifié.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3 border rounded-0">
+                        <h2 class="accordion-header" id="flush-headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                Quels sont les tarifs pour créer un site pas cher rapidement chez WebConsulPro ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Nos tarifs varient en fonction de la complexité et des fonctionnalités demandées pour votre site internet. Étant spécialiste des sites internet pas chers et rapides, nous proposons des solutions personnalisées adaptées à votre budget. Contactez-nous pour obtenir un devis personnalisé.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        
             </div>
         </div>
     </div>
     <div class="container bg-success-form text-white p-5" id="contact">
         <div class="row">
           <div class="col-12 col-md-6">
-            <h2>Contactez-nou</h2>
-            <p>Nous sommes heureux de vous aider. Envoyez-nous un message et nous vous répondrons dans les plus brefs délais.</p>
+            <h2>Parlez-vous de votre projet !</h2>
+            <p>Chez WebConsulPro, nous sommes impatients de vous aider à concrétiser vos ambitions en ligne. Si vous avez des questions, des besoins spécifiques ou si vous souhaitez obtenir un devis personnalisé, n'hésitez pas à nous contacter. Remplissez simplement le formulaire ci-dessous, et nous vous répondrons dans les plus brefs délais.            </p>
           </div>
           <div class="col-12 col-md-6">
             <form id="myForm" action="https://formspree.io/f/mbjvjeql" method="POST">
@@ -220,7 +470,7 @@
         <!-- Grid column -->
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">
-            Company name
+            WebConsulPro
         </h6>
         <p>
             Here you can use rows and columns to organize your footer
@@ -236,10 +486,10 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
         <p>
-            <a class="text-white">MDBootstrap</a>
+            <a class="text-white">Bootstrap</a>
         </p>
         <p>
-            <a class="text-white">MDWordPress</a>
+            <a class="text-white">WordPress</a>
         </p>
         <p>
             <a class="text-white">BrandFlow</a>
@@ -278,8 +528,8 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
         <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-        <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-        <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+        <p><i class="fas fa-envelope mr-3"></i> contact@webconsulpro.com</p>
+        <p><i class="fas fa-phone mr-3"></i> 07 84 99 88 66</p>
         <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
         </div>
         <!-- Grid column -->
@@ -299,7 +549,7 @@
         <div class="p-3">
             © 2020 Copyright:
             <a class="text-white" href="https://mdbootstrap.com/"
-            >MDBootstrap.com</a
+            >webconsulpro.com</a
             >
         </div>
         <!-- Copyright -->
