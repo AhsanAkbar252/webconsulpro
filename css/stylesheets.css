@@ -171,15 +171,13 @@ button[type="submit"] {
   border-color: #b2dfdb !important;
 }
 
-.team3 .card-img-top {
-  object-fit: cover;
-  height: 350px;
-  object-position: center top;
-}
 
-@media (max-width: 767px) {
-  .team3 .card-img-top {
-    height: 500px;
+
+@media (min-width: 767px) {
+  .team-section .card-img-top {
+    object-fit: cover;
+    height: 350px;
+    object-position: center top;
   }
 }
 
@@ -455,3 +453,6 @@ p.awesome_line {
 .top {
   font-family: "Poppins", sans-serif !important;
 }
+
+
+

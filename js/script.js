@@ -28,8 +28,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+
+    function closeNavbar() {
+      if ($(".navbar-collapse").hasClass("show")) {
+        $(".navbar-toggler").trigger("click");
+      }
+    }
+
     // Smooth scrolling when clicking on Navbar links
-    $("a.nav-link").on("click", function(event) {
+    $("a.scroll-link").on("click", function(event) {
+      closeNavbar();
       if (this.hash !== "") {
         event.preventDefault();
         const hash = this.hash;
@@ -60,5 +68,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
     });
+
+    // Close the navbar when clicking outside of it (optional, improves usability)
+    $(document).on("click", function (event) {
+      if (
+        !$(event.target).closest(".navbar-collapse").length &&
+        !$(event.target).is(".navbar-toggler")
+      ) {
+        if ($(".navbar-collapse").hasClass("show")) {
+          $(".navbar-toggler").trigger("click");
+        }
+      }
+    });
+
   });
   
