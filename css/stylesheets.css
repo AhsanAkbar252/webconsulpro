@@ -43,7 +43,7 @@ html {
 }
 
 .bg-success {
-  background-color: #148d7f !important;
+  background-color: #f7e9e3  !important;
 }
 
 .btn-outline-success {
@@ -157,7 +157,7 @@ button[type="submit"] {
 }
 
 .bg-success-form {
-  background-color: #148d7f !important;
+  background-color: #f7e9e3  !important;
 }
 
 .btn-outline-success {
@@ -235,7 +235,7 @@ a:hover {
 .section-head h4 {
   position: relative;
   padding: 0;
-  color: #148d7f;
+  color: #f7e9e3 ;
   line-height: 1;
   letter-spacing: 0.3px;
   font-size: 34px;
@@ -248,7 +248,7 @@ a:hover {
   content: "";
   width: 60px;
   height: 3px;
-  background: #148d7f;
+  background: #f7e9e3 ;
   position: absolute;
   left: 0px;
   bottom: -10px;
@@ -286,7 +286,7 @@ p.awesome_line {
   content: "";
   width: 60px;
   height: 3px;
-  background: #148d7f;
+  background: #f7e9e3 ;
   position: absolute;
   left: 0px;
   bottom: -10px;
@@ -295,7 +295,7 @@ p.awesome_line {
 }
 .extra-text span {
   font-weight: 700;
-  color: #148d7f;
+  color: #f7e9e3 ;
 }
 .item {
   background: #fff;
@@ -311,7 +311,7 @@ p.awesome_line {
   transition: all 0.5s ease 0s;
 }
 .item:hover {
-  background: #148d7f;
+  background: #f7e9e3 ;
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.5s ease 0;
   transition: all 0.5s ease 0;
@@ -335,7 +335,7 @@ p.awesome_line {
 .item .icon {
   font-size: 40px;
   margin-bottom: 25px;
-  color: #148d7f;
+  color: #f7e9e3 ;
   width: 90px;
   height: 90px;
   line-height: 96px;
@@ -343,27 +343,27 @@ p.awesome_line {
 }
 .item .feature_box_col_one {
   background: rgba(247, 198, 5, 0.2);
-  color: #148d7f;
+  color: #f7e9e3 ;
 }
 .item .feature_box_col_two {
   background: rgba(255, 77, 28, 0.15);
-  color: #148d7f;
+  color: #f7e9e3 ;
 }
 .item .feature_box_col_three {
   background: rgba(0, 147, 38, 0.15);
-  color: #148d7f;
+  color: #f7e9e3 ;
 }
 .item .feature_box_col_four {
   background: rgba(0, 108, 255, 0.15);
-  color: #148d7f;
+  color: #f7e9e3 ;
 }
 .item .feature_box_col_five {
   background: rgba(146, 39, 255, 0.15);
-  color: #148d7f;
+  color: #f7e9e3 ;
 }
 .item .feature_box_col_six {
   background: rgba(23, 39, 246, 0.15);
-  color: #148d7f;
+  color: #f7e9e3 ;
 }
 .item p {
   font-size: 15px;
@@ -385,7 +385,7 @@ p.awesome_line {
   height: 50px;
   line-height: 50px;
   text-align: center;
-  background: #148d7f;
+  background: #f7e9e3 ;
   border-radius: 50%;
   color: #fff;
   font-size: 25px;
@@ -421,7 +421,7 @@ p.awesome_line {
   left: 0;
   top: 0;
   height: 100%;
-  background: #148d7f;
+  background: #f7e9e3 ;
   width: 10%;
   border-radius: 10px;
   -webkit-transition: all 1s;
