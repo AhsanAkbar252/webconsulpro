@@ -458,5 +458,11 @@ p.awesome_line {
   text-decoration: underline;
 }
 
-
-
+.hero{
+  height: 90vh;
+}
+@media (max-width: 767px) {
+  .hero{
+    height: 120vh;
+}
+}
