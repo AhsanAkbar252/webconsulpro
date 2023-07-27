@@ -454,5 +454,9 @@ p.awesome_line {
   font-family: "Poppins", sans-serif !important;
 }
 
+.services h5{
+  text-decoration: underline;
+}
+
 
 
