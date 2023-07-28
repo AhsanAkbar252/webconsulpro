@@ -327,7 +327,7 @@ p.awesome_line {
 }
 .item:hover h6,
 .item:hover p {
-  color: #fff;
+  color: black;
   -webkit-transition: all 0.5s ease 0;
   transition: all 0.5s ease 0;
   transition: all 0.5s ease 0s;
