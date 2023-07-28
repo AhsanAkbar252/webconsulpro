@@ -466,3 +466,7 @@ p.awesome_line {
     height: 120vh;
 }
 }
+
+.bg-beige{
+  background-color: #f7e9e3 !important;
+}
