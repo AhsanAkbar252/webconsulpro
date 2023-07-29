@@ -235,7 +235,7 @@ a:hover {
 .section-head h4 {
   position: relative;
   padding: 0;
-  color: #f7e9e3 ;
+  color: #ffc29e ;
   line-height: 1;
   letter-spacing: 0.3px;
   font-size: 34px;
@@ -248,7 +248,7 @@ a:hover {
   content: "";
   width: 60px;
   height: 3px;
-  background: #f7e9e3 ;
+  background: #ffc29e ;
   position: absolute;
   left: 0px;
   bottom: -10px;
@@ -469,4 +469,12 @@ p.awesome_line {
 
 .bg-beige{
   background-color: #f7e9e3 !important;
+}
+
+.nav-link{
+  color: #ffc29e !important;
+}
+
+.footer p{
+  margin: 0;
 }
