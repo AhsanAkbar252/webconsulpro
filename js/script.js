@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
       const formData = new FormData(form);
       form.reset();
-      const url = 'https://formspree.io/f/mbjvjeql';
+      const url = 'https://formspree.io/f/mnqkjnvr';
   
       fetch(url, {
         method: 'POST',
