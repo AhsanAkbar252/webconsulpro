@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+@font-face {
+  font-family: Vodan;
+  src: url('../fonts/Vodan_Demo.ttf')
+}
 
 body,
 html {
@@ -477,4 +481,8 @@ p.awesome_line {
 
 .footer p{
   margin: 0;
+}
+
+.vodan{
+  font-family: Vodan;
 }
