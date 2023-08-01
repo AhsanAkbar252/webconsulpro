@@ -4,6 +4,11 @@
   src: url('../fonts/Vodan_Demo.ttf')
 }
 
+@font-face{
+  font-family: Sarah;
+  src: url('../fonts/SarahJason.ttf')
+}
+
 body,
 html {
   margin: 0;
@@ -11,9 +16,11 @@ html {
 }
 
 .navbar-brand {
+  font-size: 40px;
   max-height: 60px; /* Adjust the image height as needed */
   margin-left: 10px; /* Add some spacing between the logo and text */
-  font-weight: 700;
+  font-weight: 800;
+  font-family: Sarah
 }
 
 .navbar-nav {
